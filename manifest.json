@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Sprite Shift",
+  "description": "An extension that allows you to switch between facebook spritesheets",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.facebook.com/*"],
+      "css": ["mystyles.css"]
+    }
+  ],
+  "permissions": [
+    "tabs", "https://www.facebook.com/*"
+  ]
+}

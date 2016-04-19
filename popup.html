@@ -1,0 +1,49 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <style>
+      body {
+        font-family: monospace;;
+        font-size: 100%;
+        width: 400px;
+        height: 400px;
+      }
+      .right img{
+        display: none;
+      }
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+     -->
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <h4>Facebook Sprite Sheet</h4>
+    <p>Current Sheet: <span id="active">Facebook</span></p>
+    <hr>
+    <select name="Spritesheets" id="sheet">
+      <option value="fb">Facebook</option>
+      <option value="apple">Apple</option>
+      <option value="google">Google</option>
+      <option value="default">Default</option>
+    </select>
+    <button id="submit">Apply</button>
+
+    <div class="right" id="preview">
+      <img src="https://static.xx.fbcdn.net/rsrc.php/v2/yw/r/WgJW6jQy4-O.png" alt="" id="fb">
+      <img src="" alt="" id="apple">
+      <img src="" alt="" id="google">
+      <img src="" alt="" id="default">
+    </div>
+  </body>
+</html>

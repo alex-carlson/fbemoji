@@ -1,0 +1,52 @@
+body{
+  /* facebook color*/
+   background-color: #3b5998 !important;
+  /*background-color: #444444 !important;*/
+}
+html body._5vb_ #globalContainer{
+  width: calc(100% - 10px) !important;
+}
+._2t-d{
+  width: calc(100% -10px) !important;
+  margin: 0 5px !important;
+}
+._2s1x ._2s1y{
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+}
+._2p7a._3j7l, ._4ar- ._3t54 i, ._2r6l i, ._iu- i{
+  background-image: url(https://dl.dropboxusercontent.com/u/103110690/appleemoji.png) !important;
+}
+html ._5vb_.hasLeftCol #contentCol{
+  background-color: transparent !important;
+}
+#leftCol{
+  margin-top: 12px;
+  border-radius: 3px;
+  width: 15% !important;
+  background-color: #fff !important;
+}
+
+._5rzs._5v6d ._5v6e{
+  width: 90% !important;
+}
+#rightCol{
+  width: 21% !important;
+}
+html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea{
+  width: 75% !important;
+  margin-left: 1% !important;
+}
+#pagelet_trending_tags_and_topics{
+  display: none !important;
+}
+.newsFeedComposer ._5v6e .home_right_column, ._268y{
+  min-height: 0px !important;
+}
+._2s1x ._2s1y{
+  background-image: none !important;
+  //background-color: #000 !important;
+}
+#u_0_q > *:not(#u_0_r){
+  display: none !important;
+}
